@@ -1,0 +1,27 @@
+@font-face {
+    font-family: "210 Yeonpil";
+    src: url("210-Yeonpil.ttf");
+}
+
+p {
+    text-align: center;
+    font-family: "210 Yeonpil";
+    font-size: 30px;
+}
+
+body {
+  background-color: #EDE4E0;
+}
+img {
+    width: 100%;
+}
+
+#ss {
+    width: 100%;
+}
+#ssss {
+    padding: 30px;
+    border-radius: 30px;
+    background-color: #FFF8EA;
+    
+}

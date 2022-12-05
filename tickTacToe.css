@@ -1,0 +1,182 @@
+@font-face {
+    font-family: "210 Yeonpil";
+    src: url("210-Yeonpil.ttf");
+}
+#modalTitle {
+    text-align: center;
+    font-family: "210 Yeonpil";
+    font-size: 20px;
+}
+table{
+    padding-left: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 0px;
+}
+#t00 {
+    border-bottom: 3px solid black;
+    border-right: 3px solid black;
+    width : 150px;
+    height: 150px;
+    text-align: center;
+    font-weight : bold;
+    font-size : 60px;
+}
+#t01 {
+    border-bottom: 3px solid black;
+    border-right: 3px solid black;
+    border-left: 3px solid black;
+    width : 150px;
+    height: 150px;
+    text-align: center;
+    font-weight : bold;
+    font-size : 60px;
+}
+#t02 {
+    border-bottom: 3px solid black;
+    border-left: 3px solid black;
+    width : 150px;
+    height: 150px;
+    text-align: center;
+    font-weight : bold;
+    font-size : 60px;
+}
+#t10 {
+    border-bottom: 3px solid black;
+    border-right: 3px solid black;
+    border-top: 3px solid black;
+    width : 150px;
+    height: 150px;
+    text-align: center;
+    font-weight : bold;
+    font-size : 60px;
+}
+#t11 {
+    border: 3px solid black;
+    width : 150px;
+    height: 150px;
+    text-align: center;
+    font-weight : bold;
+    font-size : 60px;
+}
+#t12 {
+    border-bottom: 3px solid black;
+    border-left: 3px solid black;
+    border-top: 3px solid black;
+    width : 150px;
+    height: 150px;
+    text-align: center;
+    font-weight : bold;
+    font-size : 60px;
+}
+#t20 {
+    border-right: 3px solid black;
+    border-top: 3px solid black;
+    width : 150px;
+    height: 150px;
+    text-align: center;
+    font-weight : bold;
+    font-size : 60px;
+}
+#t21 {
+    border-top: 3px solid black;
+    border-right: 3px solid black;
+    border-left: 3px solid black;
+    width : 150px;
+    height: 150px;
+    text-align: center;
+    font-weight : bold;
+    font-size : 60px;
+}
+#t22 {
+    border-top: 3px solid black;
+    border-left: 3px solid black;
+    width : 150px;
+    height: 150px;
+    text-align: center;
+    font-weight : bold;
+    font-size : 60px;
+}
+#title {
+    text-align: center;
+    font-family: "210 Yeonpil";
+    font-size: 40px;
+}
+p {
+    padding-top: 15px;
+    font-family: "Yeon Sung";
+    font-size: 20px;
+}
+#modal {
+    display: none;
+    width: 400px;
+    height: 400px;
+    margin-left: auto;
+    margin-top: auto;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #888;
+    border-radius: 3px;
+}
+#innerModal {
+    align-items: center;
+}
+#modal .modal_close_btn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-family: "210 Yeonpil";
+    font-size: 40px;
+    padding: 0px 10px 0px 0px;
+}
+body {
+  background-color: #EDE4E0;
+}
+img {
+    width: 100%;
+}
+
+#ss {
+    width: 100%;
+}
+#ssss {
+    padding: 30px;
+    border-radius: 30px;
+    background-color: #FFF8EA;
+    
+}
+button {
+    float: right;
+    border: 0px solid black;
+    border-radius: 30px;
+    background-color: #9F8772;
+    padding: 0px 20px 0px 20px;
+    font-family: "210 Yeonpil";
+    font-size: 50px;
+}
+#playerScore {
+    padding-top: 30px;
+    font-family: "Yeon Sung";
+    font-size: 40px;
+    display: inline;
+    float: left;
+}
+#computerScore {
+    padding-top: 30px;
+    font-family: "Yeon Sung";
+    font-size: 40px;
+    display: inline;
+    float: right;
+}
+#score1 {
+    padding-top: 30px;
+    font-family: "Yeon Sung";
+    font-size: 40px;
+    display: inline;
+}
+#score2 {
+    padding-top: 30px;
+    font-family: "Yeon Sung";
+    font-size: 40px;
+    display: inline;
+}

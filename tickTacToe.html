@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <title>틱택토</title>
+        <meta dataset = "utf-8">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Yeon+Sung&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="tickTacToe.css">
+    </head>
+    <body>
+        <div id="modal">
+            <div id="innerModal">
+                <p id="modalTitle">틱택토란?</p>
+                <P>틱택토란 흔히 서양에서 진행하는 3목입니다.</P>
+                <P>9개의 칸 중 원하는 곳에 선택하여 돌을 놓으면 컴퓨터도 놓을 것입니다.</P>
+                <P>컴퓨터가 가로, 세로, 대각선으로 한 줄을 그리지 못하게 막고, 내가 먼저 한 줄을 그리면 승리하게 됩니다.</P>
+                <p class="modal_close_btn">X</p>
+            </div>
+        </div>
+        <div class="container-fluid mt-3">
+            <div class="row">
+                <div class="col-lg-5 col-md-5 col-sm-5"></div>
+                <div class="col-lg-2 col-md-2 col-sm-2">
+                    <div class="row">
+                        <div class="col-lg-2 col-md-1 col-sm-1"></div>
+                        <div class="col-lg-8 col-md-10 col-sm-10">
+                            <p id="title">틱택토</p>
+                        </div>
+                        <div class="col-lg-2 col-md-1 col-sm-1"></div>
+                    </div>
+                </div>
+                <div class="col-lg-5 col-md-5 col-sm-5">
+                    <button id="howButton">?</button>
+                </div>
+                <div class="col-lg-2 col-md-2 col-sm-2"></div>
+                <div class="col-lg-8 col-md-10 col-sm-10">
+                    <table id="tbl">
+                        <tr>
+                            <td id="t00" onclick="Clicked(0 , 0)"></td>
+                            <td id="t01" onclick="Clicked(0 , 1)"></td>
+                            <td id="t02" onclick="Clicked(0 , 2)"></td>
+                        </tr>
+                        <tr>
+                            <td id="t10" onclick="Clicked(1 , 0)"></td>
+                            <td id="t11" onclick="Clicked(1 , 1)"></td>
+                            <td id="t12" onclick="Clicked(1 , 2)"></td>
+                        </tr>
+                        <tr>
+                            <td id="t20" onclick="Clicked(2 , 0)"></td>
+                            <td id="t21" onclick="Clicked(2 , 1)"></td>
+                            <td id="t22" onclick="Clicked(2 , 2)"></td>
+                        </tr>
+                    </table>
+                    <p id="playerScore">플레이어 : 0</p>
+                    <p id="computerScore">컴퓨터 : 0</p>
+                </div>
+                <div class="col-lg-2 col-md-2 col-sm-2"></div>
+                
+            </div>            
+        </div>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <script src="tickTacToe.js"></script>  
+    </body>
+</html>

@@ -1,0 +1,61 @@
+@font-face {
+    font-family: "210 Yeonpil";
+    src: url("210-Yeonpil.ttf");
+}
+body {
+    background-color: #EDE4E0;
+}
+#leaderBoard {
+    background-color: #FFF8EA;
+    width: 100%;
+    height: 500px;
+}
+#menu1Color {
+    display: none;
+}
+#menu2Color {
+    display: none;
+}
+img {
+    width: 100%;
+}
+li {
+    font-family: "210 Yeonpil";
+    font-size: 30px;
+    padding-bottom: 6px;
+}
+#text1 {
+    font-family: "210 Yeonpil";
+    font-size: 20px;
+    margin-top: 5px;
+    position: absolute;
+    text-align: center;
+    background-color: transparent;
+    pointer-events: none;
+}
+#text2 {
+    font-family: "210 Yeonpil";
+    font-size: 20px;
+    color: gray;
+    margin-top: 5px;
+    text-align: center;
+    position: absolute;
+    background-color: transparent;
+    pointer-events: none;
+}
+#menu1 {
+    background-color: transparent;
+    border-bottom: 40px solid #FFF8EA;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    height: 0;
+    border-radius: 26px 26px 6 6 / 80px 80px 6 6;
+}
+#menu2 {
+    background-color: transparent;
+    border-bottom: 40px solid #ebb800;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    height: 0;
+    border-radius: 26px 26px 6 6 / 80px 80px 6 6;
+}
